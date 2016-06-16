@@ -1,0 +1,69 @@
+
+/*		LG
+----------------*/
+@media ( min-width : 1200px) {  
+
+  
+  
+  
+  
+  
+}
+
+
+
+/*		MD
+----------------*/
+@media ( min-width : 980px) and ( max-width : 1199px) {  
+
+.sl-slider h2 {padding-top:190px;}
+  
+  
+  
+}
+
+
+/*		SM
+----------------*/
+@media ( min-width : 768px) and (max-width: 979px) {   
+
+.sl-slider h2 {padding-top:160px;}
+.navbar-brand img {width: 160px;}
+.nav li a {padding: 10px 10px;}
+.da-thumbs li {width: 24%;}
+
+  
+}
+
+
+/*		XS
+----------------*/
+@media  ( max-width : 767px) {  
+
+.navbar-toggle, .navbar-toggle:hover, .navbar-toggle.collapsed:hover {background: #54cd92;color:#fff;}
+.navbar-toggle.collapsed {background: none;}
+.main-menu {border: 0;box-shadow: none;}
+.nav {background: #fff;box-shadow: 0 0 5px #aaa;margin-top: 1px;}
+.nav li {border-bottom:1px solid #eee;}
+.nav li a {color:#18343d;}
+.nav li a:hover, .nav li.current a {background:#54cd92;}
+
+.sl-slider h2 {padding-top:130px;}
+.da-thumbs li {width: 31%;}
+.contact-text {text-align: left;}
+
+  
+  
+}
+
+
+
+
+/* Xtra under 480px
+=================== */
+@media  ( max-width : 480px) {  
+
+.da-thumbs li {width: 44%;}
+.sl-slider h2 {padding-top:110px;}
+
+}
